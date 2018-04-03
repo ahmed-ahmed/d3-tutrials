@@ -1,0 +1,17 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "autoreload-server -w '**/**.{html,css,js}' ./ 8008",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.0.0",
+    "simple-autoreload-server": "^0.2.7"
+  }
+}
